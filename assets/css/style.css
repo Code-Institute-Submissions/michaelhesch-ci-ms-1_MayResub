@@ -3,11 +3,13 @@
 
 
 /*Global styles & colors*/
-
+* {
+    font-family: "Open Sans", sans-serif;
+}
 
 /*Header & Menu Item styling*/
-#top-menu li {
-
+.active-page{
+    border-bottom: 1px solid;
 }
 
 #hero-image {
@@ -23,7 +25,20 @@
     position: relative;
 }
 
+#page-name {
+    padding-right: 2rem;
+}
+
 /*Main section styling*/
+
+#img-container {
+    height: 300px;
+    width: 100%;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
 
 
 /*Footer styling*/
@@ -31,7 +46,7 @@
 .footer-social {
     margin-bottom: 0;
     vertical-align: bottom;
-    padding: 2rem 1rem;
+
 }
 
 .footer-social ul {
@@ -46,5 +61,6 @@
 
 .footer-social i {
     font-size: 200%;
-    padding: 0 25px 0 25px;
+    padding: 10px 25px 0 25px;
+    color: #343a40;
 }
