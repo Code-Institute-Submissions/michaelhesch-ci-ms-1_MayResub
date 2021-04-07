@@ -54,6 +54,10 @@ body {
     padding: 40px;
 }
 
+#img-container h3 {
+    padding-top: 15px;
+}
+
 .img-fluid {
     height: 250px;
 }
@@ -71,7 +75,32 @@ body {
 }
 
 #events {
+    background-image: url('../img/track.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
 
+#events div {
+    color: #f1f1f1;
+    background-color: rgba(0,0,0, .45);
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 4px;
+}
+
+#member-app-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#locations-heading {
+    padding-top: 25px;
+    padding-left: 30px;
 }
 
 /*Footer styling*/
