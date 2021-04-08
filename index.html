@@ -13,7 +13,7 @@
 </head>
 <body>
     <header> <!--Bootstrap collapsible navbar-->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <a class="navbar-brand" id="page-name" href="#">Driven: Formula One Fan Club</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -58,55 +58,57 @@
             <div class="row"> <!--Selection of highlighted club features to catch user's attention-->
                 <div class="col-md-4" id="img-container">
                     <img class="img-thumbnail img-fluid" src="../CI-MS-1/assets/img/racing.jpg" alt="Car racing photo one">
-                    <h3>Ticket Pre-Purchase Program</h3>
+                    <h3>Ticket Pre-Purchase Program <i class="fas fa-ticket-alt"></i></h3>
                     <p>Members of Driven are given access to ticket offers for races throughout the season before public ticket sales commence.  This allows our members to gain access to advance tickets for in-demand races, often at much better prices than those offered upon public sale.</p>
                 </div>
                 <div class="col-md-4" id="img-container">
                     <img class="img-thumbnail img-fluid" src="../CI-MS-1/assets/img/car1.jpg" alt="Car racing photo two">
-                    <h3>Exclusive Driver Meet & Greets</h3>
+                    <h3>Exclusive Driver Meet & Greets <i class="far fa-handshake"></i></h3>
                     <p>Through our long-standing partnership with Formula One and relationships with the top teams in the world, Driven offers ticketed private events with the most sought-after drivers in the world!  These exciting events give our members access not found anywhere else in the Formula One community.</p>
                 </div>
                 <div class="col-md-4" id="img-container">
                     <img class="img-thumbnail img-fluid" src="../CI-MS-1/assets/img/car2.jpg" alt="Car racing photo three">
-                    <h3>Club Events Across Europe</h3>  
+                    <h3>Club Events Across Europe <i class="far fa-calendar-alt"></i></h3>  
                     <p>With six premier club locations across Europe, Driven members are able to connect with the local Formula One community across the continent.  We also offer reciprocity with clubs in the Americas and Asia Pacific, allowing you to stay close to the action no matter where you travel.</p>
                 </div>
             </div>
             <div class="row"> <!--Selection of high-level details of upcoming events, following format of the Love Running events section-->
                 <div class="col"> 
                     <h3 class="text-left">Upcoming Club Events:</h3>
-                    <section id="events">
-                        <div class="col-md-2">
-                            <h3>New Member Social</h3>
-                            <h4>Saturday</h4>
-                            <h4>All Club Locations</h4>
-                            <h4>Start: 14.30</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h3>Race Day Viewing Social</h3>
-                            <h4>Wednesday</h4>
-                            <h4>Dublin & London</h4>
-                            <h4>Start: 17.30</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h3>Premium Member's Event</h3>
-                            <h4>Friday</h4>
-                            <h4>Stuttgart</h4>
-                            <h4>Start: 17.15</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h3>Grand Prix Ticket Pre-Sale</h3>
-                            <h4>Monday</h4>
-                            <h4>Online</h4>
-                            <h4>Start: 09.30</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h3>Race Day Meet-Up</h3>
-                            <h4>Sunday</h4>
-                            <h4>Rome</h4>
-                            <h4>Start: 12.30</h4>
-                        </div>
-                    </section>
+                    <div class="col" id="events-container">
+                        <section id="events">
+                            <div class="col-md-2">
+                                <h4>New Member Social</h4>
+                                <h5>Saturday</h5>
+                                <h5>All Club Locations</h5 >
+                                <h5>Start: 14.30</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <h4>Race Day Viewing Social</h4>
+                                <h5>Wednesday</h5>
+                                <h5>Dublin & London</h5>
+                                <h5>Start: 17.30</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <h4>Premium Member's Event</h4>
+                                <h5>Friday</h5>
+                                <h5>Stuttgart</h5>
+                                <h5>Start: 17.15</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <h4>Grand Prix Ticket Pre-Sale</h4>
+                                <h5>Monday</h5>
+                                <h5>Online</h5>
+                                <h5>Start: 09.30</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <h4>Race Day Meet-Up</h4>
+                                <h5>Sunday</h5>
+                                <h5>Rome</h5>
+                                <h5>Start: 12.30</h5>
+                            </div>
+                        </section>
+                    </div>
                 </div>    
             </div>
         </div>
@@ -122,6 +124,10 @@
                 <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
             </ul>
         </div>
-    </footer> 
+    </footer>
+<!-- Bootstrap jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
