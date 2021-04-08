@@ -12,8 +12,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
-        <!--Bootstrap collapsible navbar-->
+    <header> <!--Bootstrap collapsible navbar-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <a class="navbar-brand" id="page-name" href="#">Driven: Formula One Fan Club</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -42,68 +41,52 @@
             </div>
         </section>
         <!--Main content container-->
-        <div class="container-fluid" id="about-content">
-            <div class="row"> <!--Details about the club, its offering and brief history-->
-                <div class="col text-center">
-                    <h2>About Driven</h2>
-                    <p>Driven is the premier club for Formula One fans in Europe, offering a range of premium experiences, advance and limited event ticket purchase programs, local events in cities across Europe and an annual catalog of memorable race day experiences.  In addition the club affords members exclusive access to drivers, teams and crew areas of the most popular F1 circuts in the world.  We have been in operation since the late 1970s and utilize this wealth of expertise to provide our members with top tier service.</p>
-                </div> 
-            </div>
-            <!--<div class="row"> 
-                <div class="col text-center">
-                    <h2>Contact Us</h2>
-                    <p>Corporate Headquarters Details:</p>
-                    <strong>Driven Fan Club Limited</strong>
+        <div class="container-fluid"> <!--Selection of club locations throughout Europe-->  
+            <div class="row">
+                <div class="col" id="locations-heading">
+                    <h3>Our Club Locations:</h3>
                     <br />
-                    Spencer Dock, N Wall Quay <br />North Wall, Dublin 1 <br />D01 T1W6
-                    <br />
-                    +353 012 345 6789
-                    </p>
-                </div>-->
+                    <p>Below is a listing of our current club locations, please check back often as we continue to grow in 2021!</p>
+                </div>
             </div>
-            <div class="row"> <!--Selection of club locations throughout Europe-->
-                <div class="col text-center">
-                    <h2>Our Club Locations</h2>
-                    <div class="row"> <!--First row of map grid-->
-                        <div class="col-md-4 map-container">
-                            <h4>Dublin, Ireland (Club Headquarters)</h4>
-                            <p>9 Anne St S, Dublin, D02 NY88, Ireland</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=9%20Anne%20St%20S,%20Dublin,%20D02%20NY88,%20Ireland+(Driven%20Dublin)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Road Trip Planner</a></div>
-                        </div>
-                        <div class="col-md-4 map-container">
-                            <h4>Stuttgart, Germany</h4>
-                            <p>Marktpl. 1, 70173 Stuttgart, Germany</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Marktpl.%201,%2070173%20Stuttgart,%20Germany+(Driven%20Stuttgart)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>    
-                        </div>
-                        <div class="col-md-4 map-container">
-                            <h4>Rome, Italy</h4>
-                            <p>Via della Salara Vecchia, 5/6, 00186 Roma RM, Italy</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Via%20della%20Salara%20Vecchia,%205/6,%2000186%20Roma%20RM,%20Italy+(Driven%20Rome)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-                        </div>
-                    </div>
-                    <div class="row"> <!--Second row of map grid-->
-                        <div class="col-md-4 map-container">
-                            <h4>London, United Kingdom</h4>
-                            <p>Westminster, London SW1A 1AA, United Kingdom</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Westminster,%20London%20SW1A%201AA,%20United%20Kingdom+(Driven%20London)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-                        </div>
-                        <div class="col-md-4 map-container">
-                            <h4>Paris, France</h4>
-                            <p>Place de l'Opéra, 75009 Paris, France</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Place%20de%20l'Op%C3%A9ra,%2075009%20Paris,%20France+(Driven%20Paris)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-                        </div>
-                        <div class="col-md-4 map-container">
-                            <h4>Budapest, Hungary</h4>
-                            <p>Budapest, Szentháromság tér, 1014 Hungary</p>
-                            <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
-                            <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Budapest,%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9r,%201014%20Hungary+(Driven%20Budapest)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-                        </div>
-                    </div>
+            <div class="row"> <!--First row of map grid--> 
+                <div class="col-md-4 map-container">
+                    <h4>Dublin, Ireland (Club Headquarters)</h4>
+                    <p>9 Anne St S, Dublin, D02 NY88, Ireland</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=9%20Anne%20St%20S,%20Dublin,%20D02%20NY88,%20Ireland+(Driven%20Dublin)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+                <div class="col-md-4 map-container">
+                    <h4>Stuttgart, Germany</h4>
+                    <p>Marktpl. 1, 70173 Stuttgart, Germany</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Marktpl.%201,%2070173%20Stuttgart,%20Germany+(Driven%20Stuttgart)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>    
+                </div>
+                <div class="col-md-4 map-container">
+                    <h4>Rome, Italy</h4>
+                    <p>Via della Salara Vecchia, 5/6, 00186 Roma RM, Italy</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Via%20della%20Salara%20Vecchia,%205/6,%2000186%20Roma%20RM,%20Italy+(Driven%20Rome)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+            </div>
+            <div class="row"> <!--Second row of map grid-->
+                <div class="col-md-4 map-container">
+                    <h4>London, United Kingdom</h4>
+                    <p>Westminster, London SW1A 1AA, United Kingdom</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Westminster,%20London%20SW1A%201AA,%20United%20Kingdom+(Driven%20London)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+                <div class="col-md-4 map-container">
+                    <h4>Paris, France</h4>
+                    <p>Place de l'Opéra, 75009 Paris, France</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Place%20de%20l'Op%C3%A9ra,%2075009%20Paris,%20France+(Driven%20Paris)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+                <div class="col-md-4 map-container">
+                    <h4>Budapest, Hungary</h4>
+                    <p>Budapest, Szentháromság tér, 1014 Hungary</p>
+                    <!--Google Maps iFrame code generated using https://www.maps.ie/create-google-map/ tool-->
+                    <div id="iframe-div"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Budapest,%20Szenth%C3%A1roms%C3%A1g%20t%C3%A9r,%201014%20Hungary+(Driven%20Budapest)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
                 </div>
             </div>
         </div>
