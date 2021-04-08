@@ -58,6 +58,11 @@ body {
     padding-top: 15px;
 }
 
+#img-container i {
+    color: #343a40;
+    vertical-align: center;   
+}
+
 .img-fluid {
     height: 250px;
 }
@@ -72,6 +77,17 @@ body {
 
 .map-container {
     padding: 30px;
+}
+
+.map-container p {
+    padding: 0;
+    margin: 0;
+}
+
+.map-container hr {
+    color: rgba(0,0,0, 0.3);
+    padding: 0 0 10px 0;
+    margin: 0;
 }
 
 #events {
@@ -93,6 +109,12 @@ body {
     margin: 4px;
 }
 
+#events-container {
+    padding: 0;
+    background-color: rgba(0,0,0, 0.0);
+
+}
+
 #member-app-title {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -101,6 +123,14 @@ body {
 #locations-heading {
     padding-top: 25px;
     padding-left: 30px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+    background-color: #343a40;
+    border-color: #343a40;
 }
 
 /*Footer styling*/
