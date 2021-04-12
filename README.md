@@ -1,4 +1,4 @@
-<h1 align="center">Milestone Project - Formula One</h1>
+<h1 align="center">Milestone Project One - "Driven: Formula One Fan Club"</h1>
 
 [View the live project here.](https://#)
 
@@ -29,13 +29,13 @@ Image showing repsonsive mockups here
     -   #### Imagery
         -   x
 
-*   ### Wireframes - TBU
+*   ### Wireframes - Wireframe Links TBU
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/)
 
-    -   X Page Wireframe - [View](https://github.com/)
+    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/)
 
 ## Features - TBU
 
@@ -50,26 +50,27 @@ Image showing repsonsive mockups here
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used - TBU
+### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.2.1:](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Open Sans' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on the index page to add icons to add a visual highlight to the "club benefits" section.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - jQuery came with Bootstrap to make the navbar responsive, enabling the "hamburger" menu to function when viewing the page on a mobile device or small screen.
+1. [Maps.ie:](https://www.maps.ie/create-google-map/)
+    - Maps.ie tool to create Google Maps iframe tags for specific locations was used to set up the Club Locations maps.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the design [wireframes](https://github.com/) used to outline the webpage before development.
+1. [Visual Stuido Code](https://code.visualstudio.com/)
+    - Visual Stuido code was used as the desktop development IDE for the project, managing the code and assets for the page during development.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Windows command prompt/terminal interface to commit and push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from the local development machine using Git, as well as host the page using GitHub Pages.
+
 
 ## Testing - TBU
 
