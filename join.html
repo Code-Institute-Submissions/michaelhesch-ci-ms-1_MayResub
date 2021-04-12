@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Driven | Join the Club!</title>
-    <!--Stylesheets below including external dependencies-->
+    <!--Bootstrap 4.2.1 Stylesheet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <!--Fontawesome Stylesheet-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <!--Internal Stylesheet-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -45,7 +46,8 @@
             <div class="row">
                 <div class="col"> 
                     <h3 id="member-app-title">Apply to join Driven:</h3>
-                    <p>To apply to join the club, please enter your contact details below and select the desired membership level.</p>
+                    <p>Ready to join the fun?  We are looking for new members!</p>
+                    <p>To apply to join the club, please enter your contact details below and select the desired membership level.  After your application has been submitted, a staff member will reach out to you for further details.</p>
                     <form action="#"> <!--Application form - Designed using the Bootstrap stacked form example-->
                         <div class="form-group">
                           <label for="fname">First Name:</label>
@@ -56,12 +58,16 @@
                           <input type="text" class="form-control" placeholder="Enter Last Name" id="lname" required>
                         </div>
                         <div class="form-group">
+                            <label for="phone">Mobile phone number:</label>
+                            <input type="tel" class="form-control" placeholder="Enter Mobile Number - eg. +353 000-123-4567" id="phone" name="phone" pattern="+[0-9]{3} [0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                        <div class="form-group">
                             <label for="email">Email address:</label>
-                            <input type="email" class="form-control" placeholder="Enter email" id="email" required>
+                            <input type="email" class="form-control" placeholder="Enter email address" id="email" required>
                         </div>
                         <div class="form-group">
                             <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
+                            <input type="password" class="form-control" placeholder="Choose password" id="pwd" required>
                         </div>
                         <h4 id="member-app-title">Membership Type:</h4>
                         <div class="form-row">
@@ -106,13 +112,13 @@
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
                 <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
                 <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"> </i></li>    
             </ul>
         </div>
     </footer>
-<!-- Bootstrap jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Bootstrap Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Bootstrap 4.2.1 Javascript components -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
