@@ -16,7 +16,7 @@ body {
 #hero-image {
     height:400px;
     width: 100%;
-    background: url("../img/hero.jpg") no-repeat center center;
+    background: url("./assets/img/hero.jpg") no-repeat center center;
 }
 
 #hero-image h1 {
@@ -91,7 +91,7 @@ body {
 }
 
 #events {
-    background-image: url('../img/track.jpg');
+    background-image: url('./assets/img/track.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
