@@ -13,12 +13,17 @@ Image showing repsonsive mockups here
 
     -   #### First Time Visitor Goals
 
-        1. x
+        1. Learn about the Driven Formula One club, and the benefits it offers.
+        2. Learn about upcoming events being held by the club.
+        3. Learn about where the club operates physical locations throughout Europe.
+        4. Fill out and submit an application to join the club, including which level of membership is desired.
+
     -   #### Returning Visitor Goals
 
-        1. x
+        1. 
 
     -   #### Frequent User Goals
+
         1. x
 
 -   ### Design - TBU
@@ -41,7 +46,7 @@ Image showing repsonsive mockups here
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Application form 
 
 ## Technologies Used
 
@@ -59,9 +64,17 @@ Image showing repsonsive mockups here
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on the index page to add icons to add a visual highlight to the "club benefits" section.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive, enabling the "hamburger" menu to function when viewing the page on a mobile device or small screen.
+    - jQuery was included with Bootstrap and required to make the navbar responsive, enabling the "hamburger" menu to function when viewing the page on a mobile device or small screen.
 1. [Maps.ie:](https://www.maps.ie/create-google-map/)
     - Maps.ie tool to create Google Maps iframe tags for specific locations was used to set up the Club Locations maps.
+1. [Wikipedia:](https://en.wikipedia.org/wiki/Formula_One_car)
+    - Wikipedia pages covering Formula One and Formula One cars used for photo content.
+1. [Pixabay:](https://www.pixabay.com/)
+    - Pixabay free & royalty free stock images page used to include additional photo content.
+1. [w3schools.com:](https://www.w3schools.com/bootstrap4/default.asp)
+    - Referenced w3schools Bootstrap 4 page to leverage code samples to work off of for different features, for example in configuring the responsive menu bar.
+1. [Code Institute Full-Stack Developer Course:](https://www.codeinstitute.com/)
+    - Referenced past projects in Code Institute Full-Stack course for code samples to work off of, for example in the "Upcoming Events" section of the index page.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the design [wireframes](https://github.com/) used to outline the webpage before development.
 1. [Visual Stuido Code](https://code.visualstudio.com/)
@@ -183,20 +196,20 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [MDN Web Docs](https://developer.mozilla.org/) : x
 
 ### Content
 
--   All content was written by the developer.
+-   All text content in the page was written by the developer.
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
--   All Images were created by the developer.
+-   All Images were sourced externally, from Wikipedia as referenced above or are royalty free images from Pixabay.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Code Institute Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Code Institute 
