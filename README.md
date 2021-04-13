@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project One - "Driven: Formula One Fan Club"</h1>
 
-[View the live project here.](https://#) - TBU
+[View the live project here.](https://michaelhesch.github.io/ci-ms-1/)
 
 The purpose of this website is to promote a fictional Formula One fan club called "Driven" which operates across Europe.  The page serves to highlight the benefits of being a member in the club, upcoming club events, and location information about fictional physical club locations.  In addition, the page includes a form where a visitor can apply to become a member in the club, with a choice of membership level.
 
@@ -30,15 +30,15 @@ The purpose of this website is to promote a fictional Formula One fan club calle
     -   #### Imagery
         -   Hero image utilized across the site presents a dramatic view of a Formula One car with the club name overlayed to engage and excite the visitor about the club.  In addition the landing page uses images of Formula One races in progress to draw the visitor's attention to the key details about the club.
 
-*   ### Wireframes - [Wireframe Links TBU]
+*   ### Wireframes
 
-    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/)
+    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/mobile-wireframes.pdf)
 
-    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/)
+    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/tablet-wireframes.pdf)
 
-    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/)
+    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/desktop-wireframes.pdf)
 
-## Features - TBU
+## Features
 
 -   Three page, responsive design across device & browser sizes.
 
