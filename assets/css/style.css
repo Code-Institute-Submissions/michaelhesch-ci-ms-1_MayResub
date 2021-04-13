@@ -176,22 +176,31 @@ button[type="submit"] {
 /*Media query to improve legibility of page title and hero image text overlay screen size decreases */
 @media screen and (max-width: 800px) {
     #hero-text {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #page-name {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .map-container h4 {
         font-size: 18px;
+    }
+
+    #img-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #img-container h3 {
+        font-size: 20px;
     }
 }
 
 /*Media query to improve legibility of page title and hero image text overlay on small devices*/
 @media screen and (max-width: 350px) {
     #hero-text {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     #page-name {
@@ -203,8 +212,33 @@ button[type="submit"] {
     }
 }
 
+
+/*Media query to improve legibility of page title and hero image text overlay on small devices*/
+@media screen and (min-width:351px) and (max-width: 375px) {
+    #hero-text {
+        font-size: 18px;
+    }
+
+    #page-name {
+        font-size: 18px;
+    }
+
+    .map-container h4 {
+        font-size: 18px;
+    }
+    
+    #events h4 {
+        font-size: 18px;
+    }
+
+    #events h5 {
+        font-size: 16px;
+    }
+
+}
+
 /*Media query to improve legibility of upcoming events text as screen size narrows */
-@media screen and (min-width: 769px) and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
     #events h4 {
         font-size: 18px;
     }

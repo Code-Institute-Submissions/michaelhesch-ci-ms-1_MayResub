@@ -32,11 +32,11 @@ The purpose of this website is to promote a fictional Formula One fan club calle
 
 *   ### Wireframes
 
-    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/mobile-wireframes.pdf)
+    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/mobile-wireframes.pdf)
 
-    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/tablet-wireframes.pdf)
+    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/tablet-wireframes.pdf)
 
-    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/michaelhesch/ci-ms-1/wireframes/desktop-wireframes.pdf)
+    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/desktop-wireframes.pdf)
 
 ## Features
 
