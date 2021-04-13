@@ -1,5 +1,5 @@
-/*Import Google font family Open Sans at font weight 400*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans400');
+/*Import Google font family Open Sans*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 /*Global styles & colors*/
@@ -148,11 +148,68 @@ button[type="submit"] {
 
 .footer-social li {
     display: inline;
-    float: center;
 }
 
 .footer-social i {
     font-size: 200%;
     padding: 10px 25px 0 25px;
     color: #343a40;
+}
+
+/* Media queries section for additional responsiveness on small screens */
+
+/* Media query to improve legibility of page title and hero image text overlay screen size decreases */
+@media screen and (max-width: 943px) {
+    #hero-text {
+        font-size: 20px;
+    }
+
+    #page-name {
+        font-size: 20px;
+    }
+
+    .map-container h4 {
+        font-size: 18px;
+    }
+}
+
+/*Media query to improve legibility of page title and hero image text overlay screen size decreases */
+@media screen and (max-width: 800px) {
+    #hero-text {
+        font-size: 16px;
+    }
+
+    #page-name {
+        font-size: 16px;
+    }
+    
+    .map-container h4 {
+        font-size: 18px;
+    }
+}
+
+/*Media query to improve legibility of page title and hero image text overlay on small devices*/
+@media screen and (max-width: 350px) {
+    #hero-text {
+        font-size: 14px;
+    }
+
+    #page-name {
+        font-size: 14px;
+    }
+
+    .map-container h4 {
+        font-size: 18px;
+    }
+}
+
+/*Media query to improve legibility of upcoming events text as screen size narrows */
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    #events h4 {
+        font-size: 18px;
+    }
+
+    #events h5 {
+        font-size: 16px;
+    }
 }
