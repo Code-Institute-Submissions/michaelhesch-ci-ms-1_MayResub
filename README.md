@@ -32,11 +32,11 @@ The purpose of this website is to promote a fictional Formula One fan club calle
 
 *   ### Wireframes
 
-    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/mobile-wireframes.pdf)
+    -   Mobile Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/wireframes/mobile-wireframes.pdf)
 
-    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/tablet-wireframes.pdf)
+    -   Tablet Wireframes - Home, Club Locations & Join The Club pages - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/wireframes/tablet-wireframes.pdf)
 
-    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/wireframes/desktop-wireframes.pdf)
+    -   Desktop Wireframes - Home, Club Locations & Join The Club pages  - [View](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/wireframes/desktop-wireframes.pdf)
 
 ## Features
 
@@ -76,6 +76,8 @@ The purpose of this website is to promote a fictional Formula One fan club calle
     - Referenced past projects in Code Institute Full-Stack course for code samples to work off of, for example in the "Upcoming Events" section of the index page.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the design wireframes used to outline the webpage before development.
+1. [GIMP:](https://www.gimp.org/)
+    - GIMP (GNU Image Manipulation Program) is a free and open source image editor, used to resize and adjust the images used on the site for better performance.
 1. [Visual Stuido Code:](https://code.visualstudio.com/)
     - Visual Stuido code was used as the desktop development IDE for the project, managing the code and assets for the page during development.
 1. [Git:](https://git-scm.com/)
@@ -87,41 +89,56 @@ The purpose of this website is to promote a fictional Formula One fan club calle
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.  Results of those checks are documented in PDFs included in the project repository and can be accessed by following the links below.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/validation/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/validation/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/validation/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/validation/)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
     1. Learn about the Driven Formula One club, and the benefits it offers.
-        1. When a user arrives at the landing page of the site, they are presented with a clean and clear menu bar for navigation, featuring the name of the club, and a large hero image section to draw their attention.  The hero image also features a text tagline to further reinforce the brand of the club.  Below this, benefits of membership in the club are clearly featured in three large tiles with brief descriptions of each feature.
+        1. When a user arrives at the landing page of the site, they are presented with a clean and clear menu bar for navigation, featuring the name of the club, and a large hero image section to draw their attention.  
+        1. The hero image also features a text tagline to further reinforce the brand of the club and further draw the user's attention.  [View Screenshot]()
+        1. Continuing further down the page, the benefits of membership in the club are clearly featured in three large tiles with brief text descriptions of each feature. [View Screenshot]()
 
     2. Learn about upcoming events being held by the club.
-        1. The second component of the landing page, after the club benefits, is a listing of upcoming club events by location, including day and time.
+        1. The second component of the landing page, after the club benefits, is a listing of upcoming club events by location, including day and time. [View Screenshot]()
 
     3. Learn about where the club operates physical locations throughout Europe and the opening hours of each club.
-        1. Once the user navigates to the Locations tab, the club's physical locations are clearly displayed in a large grid, including the address and opening hours of each location, as well as a map to help the user visualize the location in each city.
+        1. Once the user navigates to the Locations tab, the club's physical locations are clearly displayed in a large grid, including the address and opening hours of each location, as well as a map to help the user visualize the location in each city. [View Screenshot]()
 
 -   #### Returning Visitor Goals
 
     1.  Sign up for the club using the form in the "Join the Club" page.
-        1. After a user visits the page and learns more about the club, they may want to return to submit an application.  This is accomplished by navigating to the "Join the Club" page and filling out a form to collect the user's basic details.  In addition, the user can select their desired membership level from two options, standard & premium, based on the features of each level displayed in the form.
+        1. After a user visits the page and learns more about the club, they may want to return to submit an application.  This is accomplished by navigating to the "Join the Club" page and filling out a form to collect the user's basic details.  [View Screenshot]()
+        1. In addition, the user can select their desired membership level from two options, standard & premium, based on the features of each level displayed in the form. [View Screenshot]()
 
     2.  Check for newly posted upcoming club events.
-        1. The club events highlight section on the landing page would be updated rountinely by the club as new events are held, and as time passes, so this section will provide a quick and easy reference point for a returning user to view events.
+        1. The club events highlight section on the landing page would be updated rountinely by the club as new events are held, and as time passes, so this section will provide a quick and easy reference point for a returning user to view events. [View Screenshot]()
 
     3.  Check the physical club locations across Europe and opening hours of each club.
-        1. As the club expands, users can easily view newly added locations on the "Locations" tab of the page, which would be updated to include the address and opening hours details for new club locations.
+        1. As the club expands, users can easily view newly added locations on the "Locations" tab of the page, which would be updated to include the address and opening hours details for new club locations. [View Screenshot]()
 
 ### Further Testing
 
 -   All pages were tested for responsiveness and any visible bugs using Google Chrome developer tools to change the viewing size across devices.  In addition, all pages on the site were tested for correct behavior on a 27" desktop monitor, a 15.1" laptop monitor, an iPhone 11 and a 10.5" iPad.
+-   The Lighthouse tool in Chrome Developer tools was used to generate performance scores and identify areas for improvement in both mobile and desktop views of the page.  Results of this scoring can be viewed via the links below:
+    1.  Mobile:
+        1. [Home Page]()
+        1. [Club Locations Page]()
+        1. [Join the Club Page]()
+    
+    1. Desktop:
+        1. [Home Page]()
+        1. [Club Locations Page]()
+        1. [Join the Club Page]()
+-   Please note that while efforts to coprrect some defects indicated in these results are due to issues found in external dependencies, such as Bootstrap's CSS, the version of jQuery used in this Bootstrap implementation, the HTTP version configured in the GitHub Pages server that the site is deployed on, etc. or other faults that are beyond the scope of this project to remedy.
 
 ### Issues Encountered in Development
 
-- Font size responsiveness.  During testing of the initial implementation of the page, I found that on smaller device sizes the font sizes for some elements remained too large as the rest of the page scaled appropriately.  This was particuarly an issue for the hero image text banner, the page title on the menu bar, and the headings for the responsive elements on the landing page and club locations pages.  This was resolved by including CSS media queries to add additional responsivenss to reduce the text size based on device screen size.   
-- Image asset linking.  Upon deploying the site, image links that worked locally were not working.  Upon further investigation, this was due to the file path used in the local development environment being inconsistent with what was needed for the GitHub Pages environment.  Specifically, the local environment links were set up as "../Project_Path/assets/img/img.jpg", which returned to the root directory, where they needed to be "./assets/img/img.jpg" when deployed to "point" to the correct file path.  
+- [Resolved] Font size responsiveness.  During testing of the initial implementation of the page, I found that on smaller device sizes the font sizes for some elements remained too large as the rest of the page scaled appropriately.  This was particuarly an issue for the hero image text banner, the page title on the menu bar, and the headings for the responsive elements on the landing page and club locations pages.  This was resolved by including CSS media queries to add additional responsivenss to reduce the text size based on device screen size.   
+- [Resolved] Image asset linking.  Upon deploying the site, image links that worked locally were not working.  Upon further investigation, this was due to the file path used in the local development environment being inconsistent with what was needed for the GitHub Pages environment.  Specifically, the local environment links were set up as "../Project_Path/assets/img/img.jpg", which returned to the root directory, where they needed to be "./assets/img/img.jpg" when deployed to "point" to the correct file path.
+- [Open] Club Locations page maps.  The current implementation of maps via iframes does not allow for the items displayed on the maps to be cleaned up, resulting in a somewhat 'busy' or cluttered user experience on this page.  This can be fixed using the Google Maps JavaScript API to hide the map markers that are displayed by default, however I was not able to find a solution to do this through the iframe implementation used for this page.
 
 ## Deployment
 
