@@ -1,4 +1,4 @@
-<h1 align="center">Milestone Project One - "Driven: Formula One Fan Club"</h1>
+<h1 align="left">Milestone Project One - "Driven: Formula One Fan Club"</h1>
 
 [View the live project here.](https://michaelhesch.github.io/ci-ms-1/)
 
@@ -52,7 +52,7 @@ The purpose of this website is to promote a fictional Formula One fan club calle
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - as required by Bootstrap only
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - as required by Bootstrap for menu responsiveness, no other JavaScript elements were included.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -83,96 +83,83 @@ The purpose of this website is to promote a fictional Formula One fan club calle
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from the local development machine using Git, as well as host the page using GitHub Pages.
 
-## Testing - TBU
+## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.  Results of those checks are documented in PDFs included in the project repository and can be accessed by following the links below.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/validation/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/michaelhesch/ci-ms-1/tree/main/validation/)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. Learn about the Driven Formula One club, and the benefits it offers.
+        1. When a user arrives at the landing page of the site, they are presented with a clean and clear menu bar for navigation, featuring the name of the club, and a large hero image section to draw their attention.  The hero image also features a text tagline to further reinforce the brand of the club.  Below this, benefits of membership in the club are clearly featured in three large tiles with brief descriptions of each feature.
 
-        1. X
+    2. Learn about upcoming events being held by the club.
+        1. The second component of the landing page, after the club benefits, is a listing of upcoming club events by location, including day and time.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. x
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. X
+    3. Learn about where the club operates physical locations throughout Europe and the opening hours of each club.
+        1. Once the user navigates to the Locations tab, the club's physical locations are clearly displayed in a large grid, including the address and opening hours of each location, as well as a map to help the user visualize the location in each city.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1.  Sign up for the club using the form in the "Join the Club" page.
+        1. After a user visits the page and learns more about the club, they may want to return to submit an application.  This is accomplished by navigating to the "Join the Club" page and filling out a form to collect the user's basic details.  In addition, the user can select their desired membership level from two options, standard & premium, based on the features of each level displayed in the form.
 
-        1. X
+    2.  Check for newly posted upcoming club events.
+        1. The club events highlight section on the landing page would be updated rountinely by the club as new events are held, and as time passes, so this section will provide a quick and easy reference point for a returning user to view events.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. X
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. X
+    3.  Check the physical club locations across Europe and opening hours of each club.
+        1. As the club expands, users can easily view newly added locations on the "Locations" tab of the page, which would be updated to include the address and opening hours details for new club locations.
 
 ### Further Testing
 
 -   All pages were tested for responsiveness and any visible bugs using Google Chrome developer tools to change the viewing size across devices.  In addition, all pages on the site were tested for correct behavior on a 27" desktop monitor, a 15.1" laptop monitor, an iPhone 11 and a 10.5" iPad.
 
-### Known Bugs - TBU
+### Issues Encountered in Development
 
--   X
+- Font size responsiveness.  During testing of the initial implementation of the page, I found that on smaller device sizes the font sizes for some elements remained too large as the rest of the page scaled appropriately.  This was particuarly an issue for the hero image text banner, the page title on the menu bar, and the headings for the responsive elements on the landing page and club locations pages.  This was resolved by including CSS media queries to add additional responsivenss to reduce the text size based on device screen size.   
+- Image asset linking.  Upon deploying the site, image links that worked locally were not working.  Upon further investigation, this was due to the file path used in the local development environment being inconsistent with what was needed for the GitHub Pages environment.  Specifically, the local environment links were set up as "../Project_Path/assets/img/img.jpg", which returned to the root directory, where they needed to be "./assets/img/img.jpg" when deployed to "point" to the correct file path.  
 
-## Deployment - TBU
+## Deployment
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/michaelhesch/ci-ms-1)
+2. From the Repository menu, select "Settings" at the far right of the menu bar.
+3. Scroll down the Settings page and select the "Pages" option.
+4. Under "Source", click the dropdown and select "Main" to select the main branch of the project.  Press "save".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+6. The site has now been published and GitHub will display the [link](https://michaelhesch.github.io/ci-ms-1/) in a green box.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/michaelhesch/ci-ms-1)
+2. Under the repository name, click "Code", then select the clipboard icon under "Clone with HTTPS" to copy the link.
+3. Open Git Bash
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type `git clone`, and then paste the URL you copied in Step 2.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-7. Press Enter. Your local clone will be created.
+6. Press Enter. Your local clone will be created.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
+> Cloning into `Test-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to visit GitHub Help for more detailed explanations of the cloning process.
 
 ## Credits
 
@@ -180,7 +167,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Code Institute Full-Stack Developer Course](https://www.codeinstitute.net/) : Code snippets from example projects, Love Running and the UCD Resume in particular, were used as basis for Hero Image layout and Upcoming Club Events section. 
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) : Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) : Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, as well as for basic layout of navigation menu and form layout.
 
 -   [README Template](https://github.com/Code-Institute-Solutions/SampleREADME) : Template for the README.md file for this project was sourced from Code Institute.
 
