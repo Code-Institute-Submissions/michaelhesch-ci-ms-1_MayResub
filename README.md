@@ -98,26 +98,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. Learn about the Driven Formula One club, and the benefits it offers.
         1. When a user arrives at the landing page of the site, they are presented with a clean and clear menu bar for navigation, featuring the name of the club, and a large hero image section to draw their attention.  
-        1. The hero image also features a text tagline to further reinforce the brand of the club and further draw the user's attention.  [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Hero.png)
-        1. Continuing further down the page, the benefits of membership in the club are clearly featured in three large tiles with brief text descriptions of each feature. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Features.png)
+        1. The hero image also features a text tagline to further reinforce the brand of the club and further draw the user's attention.  [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Hero.PNG)
+        1. Continuing further down the page, the benefits of membership in the club are clearly featured in three large tiles with brief text descriptions of each feature. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Features.PNG)
 
     2. Learn about upcoming events being held by the club.
-        1. The second component of the landing page, after the club benefits, is a listing of upcoming club events by location, including day and time. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Events.png)
+        1. The second component of the landing page, after the club benefits, is a listing of upcoming club events by location, including day and time. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Events.PNG)
 
     3. Learn about where the club operates physical locations throughout Europe and the opening hours of each club.
-        1. Once the user navigates to the Locations tab, the club's physical locations are clearly displayed in a large grid, including the address and opening hours of each location, as well as a map to help the user visualize the location in each city. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Locations.png)
+        1. Once the user navigates to the Locations tab, the club's physical locations are clearly displayed in a large grid, including the address and opening hours of each location, as well as a map to help the user visualize the location in each city. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Locations.PNG)
 
 -   #### Returning Visitor Goals
 
     1.  Sign up for the club using the form in the "Join the Club" page.
-        1. After a user visits the page and learns more about the club, they may want to return to submit an application.  This is accomplished by navigating to the "Join the Club" page and filling out a form to collect the user's basic details.  [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Join.png)
-        1. In addition, the user can select their desired membership level from two options, standard & premium, based on the features of each level displayed in the form. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Join.png)
+        1. After a user visits the page and learns more about the club, they may want to return to submit an application.  This is accomplished by navigating to the "Join the Club" page and filling out a form to collect the user's basic details.  [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Join.PNG)
+        1. In addition, the user can select their desired membership level from two options, standard & premium, based on the features of each level displayed in the form. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Join.PNG)
 
     2.  Check for newly posted upcoming club events.
-        1. The club events highlight section on the landing page would be updated rountinely by the club as new events are held, and as time passes, so this section will provide a quick and easy reference point for a returning user to view events. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Events.png)
+        1. The club events highlight section on the landing page would be updated rountinely by the club as new events are held, and as time passes, so this section will provide a quick and easy reference point for a returning user to view events. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Home-Events.PNG)
 
     3.  Check the physical club locations across Europe and opening hours of each club.
-        1. As the club expands, users can easily view newly added locations on the "Locations" tab of the page, which would be updated to include the address and opening hours details for new club locations. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Locations.png)
+        1. As the club expands, users can easily view newly added locations on the "Locations" tab of the page, which would be updated to include the address and opening hours details for new club locations. [View Screenshot](https://github.com/michaelhesch/ci-ms-1/tree/main/documentation/screenshots/Locations.PNG)
 
 ### Further Testing
 
