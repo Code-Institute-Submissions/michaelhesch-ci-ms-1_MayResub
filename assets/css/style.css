@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 	background-color: #f1f1f1;
 }
 
@@ -55,7 +56,6 @@ body {
 
 #img-container {
 	width: 100%;
-	padding: 40px;
 }
 
 #img-container h3 {
@@ -94,7 +94,7 @@ body {
 	margin: 0;
 }
 
-#events {
+#events-container {
 	background-image: url('../img/track.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -103,7 +103,6 @@ body {
 	overflow: hidden;
     margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.0);
-
 }
 
 #events div {
@@ -256,6 +255,10 @@ button[type="submit"] {
 	#events h5 {
 		font-size: 16px;
 	}
+    #img-container {
+        padding: 3px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -272,6 +275,12 @@ button[type="submit"] {
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 20px;
+    }
+    #img-container h3 {
+		font-size: 20px;
+	}
+    #img-container {
+        padding: 10px;
     }
 }
 
