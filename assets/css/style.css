@@ -54,15 +54,15 @@ body {
 
 /*Main section styling*/
 
-#img-container {
+.img-container {
 	width: 100%;
 }
 
-#img-container h3 {
+.img-container h3 {
 	padding-top: 15px;
 }
 
-#img-container i {
+.img-container i {
 	color: #343a40;
 	vertical-align: center;
 }
@@ -75,8 +75,16 @@ body {
 	padding: 40px;
 }
 
-#iframe-div {
+.iframe-div {
 	width: 100%;
+}
+
+.iframe-div iframe {
+	width: 100%;
+	height: 250px;
+	margin: 0;
+	border: none;
+	overflow: hidden;
 }
 
 .map-container {
@@ -117,7 +125,7 @@ body {
     margin-left: 30px;
 }
 
-#member-app-title {
+.member-app-title {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
